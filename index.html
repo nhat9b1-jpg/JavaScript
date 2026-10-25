@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <div id="thumbnails">
+    <img src="https://picsum.photos/id/237/200/200" alt="A cute black puppy"
+         onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1015/200/200" alt="A beautiful river in the mountains"
+         onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1025/200/200" alt="A pug sitting on a chair"
+         onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1035/200/200" alt="A misty mountain landscape"
+         onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/1074/200/200" alt="A calm ocean at sunset"
+         onmouseover="upDate(this)" onmouseout="undo()">
+
+    <img src="https://picsum.photos/id/106/200/200" alt="A scenic bridge over the water"
+         onmouseover="upDate(this)" onmouseout="undo()">
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
